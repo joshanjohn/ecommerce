@@ -29,6 +29,7 @@ flutter:
   # ------------------- ASSETS ---------------
   assets:
     - assets/logos/brands
+    - assets/logos/
     - assets/icons/
     - assets/images/
 
