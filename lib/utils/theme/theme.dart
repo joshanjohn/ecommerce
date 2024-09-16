@@ -33,7 +33,7 @@ class AppTheme {
       appBarTheme: AppAppBarTheme.darkAppBarTheme,
       textTheme: AppTextTheme.darkTextTheme,
       checkboxTheme: AppCheckBoxTheme.darkCheckboxTheme,
-      outlinedButtonTheme: AppOutlineButtonTheme.lightOutlineButtonTheme,
+      outlinedButtonTheme: AppOutlineButtonTheme.darkOutlineButtonTheme,
       elevatedButtonTheme: AppElevatedButtonTheme.darkElevatedButtonTheme,
       bottomSheetTheme: AppBottomSheetTheme.darkBottomSheetTheme,
       inputDecorationTheme: AppTextFieldTheme.darkTextFieldTheme);
