@@ -1,3 +1,4 @@
+import 'package:ecommerce/features/authentication/screens/password_configuration/forgot_password.dart';
 import 'package:ecommerce/features/authentication/screens/signup/signup.dart';
 import 'package:ecommerce/utils/constants/size.dart';
 import 'package:ecommerce/utils/constants/text_strings.dart';
@@ -51,7 +52,7 @@ class AppLoginForm extends StatelessWidget {
 
                 // -- Forgot Password
                 TextButton(
-                    onPressed: () {},
+                   onPressed: () => Get.to(()=> ForgetPassword()),
                     child: const Text(AppTexts.forgetPassword))
               ],
             ),
@@ -69,7 +70,7 @@ class AppLoginForm extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: OutlinedButton(
-                onPressed: () => Get.to(() => SignUpScreen()),
+                onPressed: () => Get.offAll(() => SignUpScreen()),
                 child: const Text(AppTexts.createAccount),
               ),
             ),

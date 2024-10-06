@@ -12,4 +12,13 @@ class AppImages {
   static const String onBoardingPayment = "assets/images/onboard_images/onboarding-payment.gif";
   static const String onBoardingSearch = "assets/images/onboard_images/onboarding-search.gif";
   static const String onBoardingDelivery = "assets/images/onboard_images/onboarding-delivery.gif";
+
+// -- Animations 
+  static const String productsIllustration = "assets/images/animations/sammy-line-workout.gif";
+  static const String productsSaleIllustration = "assets/images/animations/sammy-line-sale.png";
+  static const String staticSuccessIllustration = "assets/images/animations/sucess-register.gif";
+  static const String deliveredInPlaneIllustration = "assets/images/animations/sammy-Line-come-back-later.png";
+  static const String deliveredEmailIllustration = "assets/images/animations/mail-delivered.gif";
+  static const String verifyIllustration = "assets/images/animations/sammy-Line-come-back-later.png";
+
 }

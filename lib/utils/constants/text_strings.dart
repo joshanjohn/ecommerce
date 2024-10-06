@@ -1,5 +1,8 @@
 class AppTexts {
 //  GLOBAL Texts
+  static const String submit = "Submit";
+  static const String done = "Done";
+
 
 //  OnBoarding Texts
   static const String onBoardingTitle1 = "Choose your product";
@@ -37,6 +40,7 @@ class AppTexts {
   static const String verificationCode = "verificationCode";
   static const String resendEmail = "Resend Email";
   static const String resendEmailIn = "Resend email in";
+  static const String Appcontinue = "Continue";
 
 // --Authentication Headings Text
   static const String LoginTitle = "Welcome back,";
@@ -57,4 +61,6 @@ class AppTexts {
       "Didn't get the email? Check your junk/spam or resend it.";
   static const String yourAccountCreatedTitle =
       "Your account successfully created!";
+      static const String yourAccountCreatedSubTitle=
+      "Welcome to Your Ultimate Shopping Destination: Your Account is Created, Unleash the Joy of Seamless Online Shopping!";
 }
